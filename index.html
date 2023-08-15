@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>オーディオの再生</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <input type="radio" name="sound" value="laser" checked> レーザー<br>
+    <input type="radio" name="sound" value="dog"> 犬<br>
+    <input type="radio" name="sound" value="cow"> 牛<br>
+    <input type="radio" name="sound" value="siren"> サイレン<br>
+    <button id="play-btn">サウンドを再生</button><br><br>
+    <input type="checkbox" checked>バックグランドミュージックを再生する
+    <audio controls id="bg-player"  src="" loop>
+  </body>
+</html>
